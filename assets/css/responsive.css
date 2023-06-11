@@ -1,0 +1,122 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .cutom_menu {
+    padding: 10px 0px;
+  }
+  .custom_btn {
+    width: 100px;
+    margin: 0px auto;
+  }
+  .menu > li > a {
+    padding: 7px;
+  }
+  .banner {
+    padding: 30px;
+  }
+  .headline {
+    font-size: 38px;
+    line-height: normal;
+    text-align: center;
+  }
+  .hide_xs {
+    display: none;
+  }
+  .icon_mail {
+    width: 20%;
+  }
+  .input_area > input {
+    width: 80%;
+  }
+  .btn_sm {
+    width: 100%;
+    margin: 10px auto;
+  }
+  .footer {
+    padding: 30px 30px;
+  }
+  .align_center {
+    text-align: center !important;
+  }
+  .footer_paragraph {
+    text-align: justify;
+  }
+  .copyright,
+  .footer_menu > h4,
+  .footer_menu > ul {
+    text-align: center !important;
+    padding: 0px;
+  }
+  .links > ul {
+    padding: 0px;
+    justify-content: center !important;
+    margin-bottom: 10px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .cutom_menu {
+    padding: 10px 0px;
+  }
+  .custom_btn {
+    width: 100px;
+    margin: 0px auto;
+  }
+  .menu > li > a {
+    padding: 7px;
+  }
+  .headline {
+    font-size: 46px;
+    line-height: normal;
+  }
+  .hide_sm {
+    display: none;
+  }
+  .align_center {
+    text-align: center !important;
+  }
+  .footer_paragraph {
+    text-align: justify;
+  }
+  .center_align {
+    padding: 0px;
+    justify-content: center !important;
+    margin-bottom: 10px;
+  }
+  .justify_center {
+    justify-content: center !important;
+    text-align: center;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .footer_menu > ul {
+    padding: 0px;
+  }
+  .links > ul {
+    padding: 0px;
+    margin-bottom: 10px;
+  }
+  .align_end,
+  .footer_menu > h4,
+  .footer_menu > ul {
+    justify-content: end !important;
+  }
+  .left_align {
+    text-align: left !important;
+  }
+  .right_align {
+    text-align: right !important;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  ...;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  ...;
+}
